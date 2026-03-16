@@ -60,8 +60,6 @@ airyss/
 
 ## ローカル開発開始方法
 
-> ※ 現在準備中です。以下は予定されている手順です。
-
 ```bash
 # 1. 環境変数を設定
 cp .env.example .env
@@ -74,3 +72,8 @@ make logs
 ```
 
 ブラウザで http://localhost にアクセスしてください。
+
+| エンドポイント | 説明 |
+|---|---|
+| http://localhost/ | Web プレースホルダー |
+| http://localhost/api/health | API ヘルスチェック (`{"status":"ok"}`) |
