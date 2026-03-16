@@ -1,0 +1,51 @@
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+.next/
+.nuxt/
+dist/
+build/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+dist/
+.mypy_cache/
+.ruff_cache/
+
+# Docker
+.docker/
+
+# ログ
+*.log
+logs/
+
+# テスト・カバレッジ
+coverage/
+.coverage
+htmlcov/
+
+# 一時ファイル
+tmp/
+temp/
+*.tmp
